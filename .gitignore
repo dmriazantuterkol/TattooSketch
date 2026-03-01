@@ -504,6 +504,13 @@ __pycache__/
 *.pyd
 .env
 .venv
+visualTesting/*.png
+venv/
+.venv/
+__pycache__/
+# test images
+visualTesting/*.jpg
+visualTesting/*.png
 
 # ==============================
 # VS Code
