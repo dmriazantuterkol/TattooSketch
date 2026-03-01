@@ -480,3 +480,38 @@ $RECYCLE.BIN/
 
 # Vim temporary swap files
 *.swp
+
+# ==============================
+# .NET
+# ==============================
+bin/
+obj/
+*.user
+*.suo
+*.userprefs
+*.csproj.user
+*.dbmdl
+*.pdb
+*.cache
+
+# ==============================
+# Python
+# ==============================
+SketchService/venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+
+# ==============================
+# VS Code
+# ==============================
+.vscode/
+
+# ==============================
+# OS
+# ==============================
+.DS_Store
+Thumbs.db
