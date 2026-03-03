@@ -19,7 +19,7 @@ if img is None:
 img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 
 # обработка
-result = process(img, colors=6)
+result = process(img, colors=7)
 
 # имя файла с временем
 timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
