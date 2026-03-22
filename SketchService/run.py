@@ -4,7 +4,7 @@ from core.pipeline import process
 import os
 
 # путь относительно папки SketchService
-INPUT = "visualTesting/031.jpg"
+INPUT = "visualTesting/IMG_3246.PNG"
 OUTPUT_DIR = "visualTesting"
 
 # создаём папку если её нет
@@ -19,11 +19,11 @@ if img is None:
 img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 
 # обработка
-result = process(img, colors=7)
+result = process(img, colors=9)
 
 # имя файла с временем
 timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-output_filename = f"031_result_{timestamp}.png"
+output_filename = f"IMG_3246_result_{timestamp}.png"
 output_path = os.path.join(OUTPUT_DIR, output_filename)
 
 # сохраняем

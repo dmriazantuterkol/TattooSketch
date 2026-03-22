@@ -10,7 +10,7 @@ from core.comic import comic_flatten
 
 def process(
     image,
-    colors=6,
+    colors=9,
     use_smooth=False,
     use_posterize=False,
     use_region_cleanup=False,
