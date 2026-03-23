@@ -48,7 +48,15 @@ def process(
     # 6️⃣ Outline
     if use_outline:
         outline = extract_outline(current)
-        current[outline > 0] = [0, 0, 0]
+
+    # белый фон
+        result = np.ones_like(current) * 255
+
+    # рисуем линии
+        result[outline > 0] = [0, 0, 0]
+
+        current = result
+
         print("✓ outline")
 
     return current
